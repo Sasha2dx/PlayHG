@@ -11,7 +11,7 @@ for (let index = 0; index < getItems.length; index++) {
 
 if (game){
 
-    let url = 'http://holy-games.herokuapp.com/play/'+game
+    let url = 'https://holy-games.herokuapp.com/play/'+game
     if (ps) url +='?ps='+ps;
     url += location.hash;
 
